@@ -2,7 +2,7 @@ Q1: What happens when you initialize a repository? Why do you need to do it?
 A1: When you initialize a repository, it creates a .git dir in the dir you are currently in. It does not commit anything. You need it to put the files in, when you commit everything in the folder later on.
 
 Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
-A2: It is an immediate area where you can add different files to to logically make sense to make one commit per logical change. I believe it offers an extra area to put aside files that make sense to group together, as well as to double check before making the commit
+A2: It is an immediate area where you can add different files to to logically make sense to make one commit per logical change. I believe it offers an extra area to put aside files that make sense to group together, as well as to double check before making the commit.
 
-Q3:
-A3:
+Q3: How can you use the staging area to make sure you have one commit per logical change?
+A3: The staging area can only hold the current commit at a time. So, using git diff will compare the differences between the working directory and the staging area.
