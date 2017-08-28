@@ -6,3 +6,6 @@ A2: It is an immediate area where you can add different files to to logically ma
 
 Q3: How can you use the staging area to make sure you have one commit per logical change?
 A3: The staging area can only hold the current commit at a time. So, using git diff will compare the differences between the working directory and the staging area.
+
+Q4: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A4: Situtations when branches would be helpful in keeping your history organized would be for when making different versions of the project. you can work on these branches without affecting the master branch, and can merge these later if so desired.
